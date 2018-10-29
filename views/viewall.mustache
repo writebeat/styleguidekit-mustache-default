@@ -1,15 +1,17 @@
 <!-- View All Patterns in a Pattern Sub-Type -->
 <div class="pl-c-main">
-  
+
 	<!-- Index of Patterns -->
 	<div class="pl-c-pattern-index">
-	
+
 		{{# partials }}
 			{{# patternSectionSubtype }}
 			{{> patternSectionSubtype }}
+      <hr />
 			{{/ patternSectionSubtype }}
 			{{^ patternSectionSubtype }}
 			{{> patternSection }}
+      <hr />
 			{{/ patternSectionSubtype }}
 		{{/ partials }}
 
