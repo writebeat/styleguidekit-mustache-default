@@ -1,4 +1,4 @@
-<script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+<script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
   {{{ patternData }}}
 </script>
 
@@ -10,9 +10,9 @@
    * Licensed under the MIT license
    *
    */
-  
+
   var scriptLoader = {
-    
+
     run: function(js,cb,target) {
       var s  = document.getElementById(target+'-'+cb);
       for (var i = 0; i < js.length; i++) {
@@ -31,7 +31,7 @@
         s.parentNode.insertBefore(c,s);
       }
     }
-    
+
   }
 </script>
 
